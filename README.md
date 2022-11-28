@@ -71,7 +71,7 @@ $ yarn build
 ## Method 1. For deployment or for back-end development only.
 
 - Change to `web`; run `yarn build` to update the static files.
-- Run the python server.
+- Change back to project root and run `./server.py`.
 
 Browse the URL printed out by the python server.
 
@@ -80,7 +80,7 @@ Browse the URL printed out by the python server.
 The advantage of this is the code changes in the front-end part
 is immediately reflected in the browser without the need to recompile.
 
-- Run python server.
+- Run `./server.py`.
 - Change to `web`; run `yarn dev`.
 
 Browse the URL printed out by `yarn`.
