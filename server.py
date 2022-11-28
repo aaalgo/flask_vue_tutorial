@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import json
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, redirect
 
 HOST = '0.0.0.0'
 PORT = 8888
@@ -9,7 +9,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def index ():
-    return "Hello, world!"
+    return redirect("/static/index.html", code=302)
+
 
 @app.route('/simple/')
 def simple ():
@@ -18,9 +19,8 @@ def simple ():
 @app.route('/api/hello/')
 def hello ():
     out = {
-            'text': 'Hello from Flask!',
-            'value': 1000
-            }
+            'text': 'Hello from Flask! (Flask is Working!)',
+        }
     return jsonify(out)
 
 @app.route('/api/strlen/', methods=['POST'])
@@ -35,10 +35,14 @@ def strlen ():
 @app.route('/api/upload/', methods=['POST'])
 def upload ():
     #print(request.form['files'])
-    print(request.files)
+    f = request.files['file']
+    content = f.read()
+    # The file can be saved by
+    # f.save("path")
+    # https://tedboy.github.io/flask/generated/generated/werkzeug.FileStorage.html
     out = {
-            'result': 'xxx'
-            }
+            'result': len(content)
+          }
     return jsonify(out)
 
 if __name__ == '__main__':

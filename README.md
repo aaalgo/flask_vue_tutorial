@@ -54,6 +54,18 @@ implemented by the following lines in the configuration file
 
 By default we configure the flask server to listen the port 8888.
 
+# Dependencies
+
+- Python3.  To install flask run `pip3 install flask`.
+- Node.js.  To install yarn run `sudo npm install --global yarn`.
+
+```
+$ cd web
+$ npm install
+$ yarn build
+```
+
+
 # How to Run
 
 ## Method 1. For deployment or for back-end development only.
