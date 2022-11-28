@@ -114,7 +114,7 @@ $ yarn build
 
 # How to Run
 
-## Method 1. For deployment or for back-end development only.
+## Method 1. For back-end development only.
 
 - Change to `web`; run `yarn build` to update the static files.
 - Change back to project root and run `./server.py`.
