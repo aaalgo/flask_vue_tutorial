@@ -29,10 +29,9 @@ It is designed as an introductory project for a full-stack software engineer.
 
 References
 
+- Javascript https://www.w3schools.com/js/
 - Vue https://vuejs.org/guide/quick-start.html#using-vue-from-cdn
 - Vuetify (for reference only.) https://next.vuetifyjs.com/en/components/all/
-- https://www.w3schools.com/js/
-
 - Another Vue library: https://antdv.com/components/overview
 - Database: https://www.sqlalchemy.org/
 
