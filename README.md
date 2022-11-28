@@ -9,7 +9,7 @@ Vue.  We use Vuetify for web UI components.
 - https://en.wikipedia.org/wiki/IP_address
 - https://en.wikipedia.org/wiki/Port_(computer_networking)
 - https://en.wikipedia.org/wiki/URL
-- https://en.wikipedia.org/wiki/JSON
+- https://www.w3schools.com/whatis/whatis_json.asp
 - https://www.tutorialspoint.com/http/index.htm
   Pay attention to:
   * What is content-type.
@@ -18,10 +18,17 @@ Vue.  We use Vuetify for web UI components.
   * How parameters are passed in the GET method.
   * How parameters are passed in the POST method; how files are
 	uploaded.
-
 - Flask Quickstart (we do not need the template part): https://www.tutorialspoint.com/flask/index.htm
+- https://www.w3schools.com/whatis/whatis_html.asp
+- https://www.w3schools.com/whatis/whatis_vue.asp
+- https://www.w3schools.com/whatis/whatis_ajax.asp
+  This is the AJAX concept; we use `axios` for implementation.
+
+References
+
 - Vue https://vuejs.org/guide/quick-start.html#using-vue-from-cdn
 - Vuetify (for reference only.) https://next.vuetifyjs.com/en/components/all/
+- https://www.w3schools.com/js/
 
 
 # Architecture
