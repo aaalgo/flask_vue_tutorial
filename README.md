@@ -63,7 +63,7 @@ By default we configure the flask server to listen the port 8888.
 
 # Dependencies
 
-## Python3. 
+## Python3
 
 Python should be available in most systems.  In Ubuntu it can be
 installed by
@@ -79,7 +79,7 @@ To install dependencies, run
 pip3 install -r requirements.txt
 ```
 
-## Node.js.
+## Node.js
 
 ### Install Node
 
@@ -98,7 +98,7 @@ export PATH=$PATH:$NODE_HOME/bin
 ```
 Start a new terminal so node is made available to the shell.
 
-### Install Yarn
+### Yarn
 
 If yarn is not available.
 ```
