@@ -63,15 +63,54 @@ By default we configure the flask server to listen the port 8888.
 
 # Dependencies
 
-- Python3.  To install flask run `pip3 install flask`.
-- Node.js.  To install yarn run `sudo npm install --global yarn`.
+## Python3. 
 
+Python should be available in most systems.  In Ubuntu it can be
+installed by
+
+```
+# This is most likely not needed as python3 should be already available.
+sudo apt-get install python3 python3-pip
+```
+
+To install dependencies, run 
+
+```
+pip3 install -r requirements.txt
+```
+
+## Node.js.
+
+### Install Node
+
+If node is not already available:
+
+```
+$ sudo bash
+# cd /opt
+# wget https://nodejs.org/dist/v16.18.1/node-v16.18.1-linux-x64.tar.xz
+# tar xf node-v16.18.1-linux-x64.tar.xz
+# ln -s node-v16.18.1-linux-x64 node
+# cat > /etc/profile.d/node.sh		# add environment variable to system
+export NODE_HOME=/opt/node
+export PATH=$PATH:$NODE_HOME/bin
+<Ctrl-D>
+```
+Start a new terminal so node is made available to the shell.
+
+### Install Yarn
+
+If yarn is not available.
+```
+sudo npm install --global yarn
+```
+
+### Setup Project Directory
 ```
 $ cd web
 $ npm install
 $ yarn build
 ```
-
 
 # How to Run
 
