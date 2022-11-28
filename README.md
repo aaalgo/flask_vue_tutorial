@@ -3,8 +3,11 @@ Flask and Vue Tutorial
 
 # Background
 
-This is a stub project for a web app with Flask background and
-Vue.  We use Vuetify for web UI components.
+Python is a very popular general purpose programming language.  For
+machine learning it is most times the only choice.  Vue, on the
+other hand, is a very popular framework for web frontend.
+This project demonstrates how the two can work together seamlessly.
+It is designed as an introductory project for a full-stack software engineer.
 
 - https://en.wikipedia.org/wiki/IP_address
 - https://en.wikipedia.org/wiki/Port_(computer_networking)
@@ -29,6 +32,9 @@ References
 - Vue https://vuejs.org/guide/quick-start.html#using-vue-from-cdn
 - Vuetify (for reference only.) https://next.vuetifyjs.com/en/components/all/
 - https://www.w3schools.com/js/
+
+- Another Vue library: https://antdv.com/components/overview
+- Database: https://www.sqlalchemy.org/
 
 
 # Architecture
