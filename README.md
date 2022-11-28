@@ -21,7 +21,7 @@ Vue.  We use Vuetify for web UI components.
 
 - Flask Quickstart (we do not need the template part): https://www.tutorialspoint.com/flask/index.htm
 - Vue https://vuejs.org/guide/quick-start.html#using-vue-from-cdn
-- Vuetify https://next.vuetifyjs.com/en/components/all/
+- Vuetify (for reference only.) https://next.vuetifyjs.com/en/components/all/
 
 
 # Architecture
